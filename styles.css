@@ -45,6 +45,17 @@ body {
 section {
     padding: 2rem 7%;
 }
+.heading{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+.heading span{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
 
 .btn {
     margin-top: 1rem;
@@ -62,12 +73,11 @@ section {
 }
 
 .header {
-    background: var(--bg);
+    background: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 7%;
-    border-bottom: var(--border);
     position: fixed;
     top: 0;
     left: 0;
@@ -205,7 +215,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(./images/gengar-2.png) no-repeat;
+    background: url(./images/joker-pokemon.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -217,15 +227,24 @@ section {
     text-transform: uppercase;
     color: #fff;
 }
+.home .content span {
+    color: var(--main-color);
+    font-size: 6rem;
+    text-transform: uppercase;
+}
 .home .content p {
     color: #fff;
     font-size: 2rem;
     font-weight: lighter;
     line-height: 1.8;
     padding: 1rem 0;
-
 }
-
+.about .row {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    flex-wrap: wrap;
+}
 
 
 
@@ -285,6 +304,12 @@ section {
         font-size: 4.5rem;
     }
     .home .content h3 {
+        font-size: 2rem;
+    }
+    .home .content span {
+        font-size: 2rem;
+    }
+    .home .content p {
         font-size: 1.5rem;
     }
 }
