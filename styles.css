@@ -329,9 +329,6 @@ section {
     transition: .5s;
 }
 
-.menu .box-container .box:hover>* {
-    color: var(--black);
-}
 
 .products .box-container {
     display: grid;
@@ -359,8 +356,38 @@ section {
     background-color: var(--main-color);
 }
 
+.products .box-container .box .image {
+    padding: 2.5rem 0;
+}
 
+.products .box-container .box .image img {
+    height: 25rem;
+}
 
+.products .box-container .box .content h3 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.products .box-container .box .content .stars {
+    padding: 1.5rem;
+}
+
+.products .box-container .box .content .stars i {
+    padding: 1.7rem;
+    color: var(--main-color);
+}
+
+.products .box-container .box .content .price {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.products .box-container .box .content .price span {
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
 
 
 
